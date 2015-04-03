@@ -15,4 +15,11 @@ public class HelloWorldController
         model.addAttribute("age", 25);
         return "welcome";
     }
+
+    @RequestMapping(value="/helloagain2", method = RequestMethod.GET)
+    public void sayHelloAgain2(ModelMap model) {
+        model.addAttribute("greeting", "Hello World Again 2, from Spring 4 MVC");
+        model.addAttribute("age", 25);
+        //return "welcome";
+    }
 }

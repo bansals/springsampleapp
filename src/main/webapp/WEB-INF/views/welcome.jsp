@@ -11,6 +11,7 @@
     <title></title>
 </head>
 <body>
-
+<h1>Greeting : ${greeting}</h1>
+<h1>Age : ${age}</h1>
 </body>
 </html>
